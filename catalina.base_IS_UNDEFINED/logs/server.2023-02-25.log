@@ -1,0 +1,160 @@
+2023-02-25 10:28:36.565 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Starting TestmysqlApplication using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 33996 (D:\workspace2023\testmysql\target\classes started by yzm in D:\workspace2023\testmysql)
+2023-02-25 10:28:36.568 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - No active profile set, falling back to default profiles: default
+2023-02-25 10:28:37.476 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-25 10:28:37.483 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-25 10:28:37.483 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-25 10:28:37.484 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-02-25 10:28:37.545 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-25 10:28:37.545 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 941 ms
+2023-02-25 10:28:37.621 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-25 10:28:37.725 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-25 10:28:37.992 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:28:38.155 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-25 10:28:38.170 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-25 10:28:38.178 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Started TestmysqlApplication in 1.951 seconds (JVM running for 2.693)
+2023-02-25 10:28:49.733 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-25 10:28:49.733 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-25 10:28:49.734 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-02-25 10:28:49.740 [http-nio-8080-exec-2] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，前置处理方法！
+2023-02-25 10:28:49.760 [http-nio-8080-exec-2] ERROR c.e.t.com.yzm.error.GloableExceptionHandler - 发生了异常！
+2023-02-25 10:28:49.772 [http-nio-8080-exec-2] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，后置处理方法！
+2023-02-25 10:29:10.570 [http-nio-8080-exec-4] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，前置处理方法！
+2023-02-25 10:29:11.136 [http-nio-8080-exec-4] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - Response Args  : [{"age":18,"id":1,"name":"zhangsan"},{"age":30,"id":2,"name":"lisi"}]
+2023-02-25 10:29:11.138 [http-nio-8080-exec-4] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 打印日志描述信息： 这是请求了controller的 /test 接口
+2023-02-25 10:29:11.138 [http-nio-8080-exec-4] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - Time-Consuming : 568 ms
+2023-02-25 10:29:11.171 [http-nio-8080-exec-4] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，后置处理方法！
+2023-02-25 10:29:11.172 [http-nio-8080-exec-4] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，后置处理方法！
+2023-02-25 10:32:03.075 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Starting TestmysqlApplication using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 35348 (D:\workspace2023\testmysql\target\classes started by yzm in D:\workspace2023\testmysql)
+2023-02-25 10:32:03.078 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - No active profile set, falling back to default profiles: default
+2023-02-25 10:32:03.959 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-25 10:32:03.966 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-25 10:32:03.967 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-25 10:32:03.967 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-02-25 10:32:04.021 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-25 10:32:04.022 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 887 ms
+2023-02-25 10:32:04.098 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-25 10:32:04.199 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-25 10:32:04.475 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:32:04.639 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-25 10:32:04.653 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-25 10:32:04.661 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Started TestmysqlApplication in 1.923 seconds (JVM running for 2.715)
+2023-02-25 10:32:10.911 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-25 10:32:10.911 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-25 10:32:10.912 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-02-25 10:32:10.918 [http-nio-8080-exec-2] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，前置处理方法！
+2023-02-25 10:32:11.484 [http-nio-8080-exec-2] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - Response Args  : [{"age":18,"id":1,"name":"zhangsan"},{"age":30,"id":2,"name":"lisi"}]
+2023-02-25 10:32:11.486 [http-nio-8080-exec-2] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 打印日志描述信息： 这是请求了controller的 /test 接口
+2023-02-25 10:32:11.486 [http-nio-8080-exec-2] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - Time-Consuming : 553 ms
+2023-02-25 10:32:11.531 [http-nio-8080-exec-2] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，后置处理方法！
+2023-02-25 10:32:11.531 [http-nio-8080-exec-2] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器, 模型渲染处理后执行的方法！
+2023-02-25 10:34:46.312 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Starting TestmysqlApplication using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 40368 (D:\workspace2023\testmysql\target\classes started by yzm in D:\workspace2023\testmysql)
+2023-02-25 10:34:46.314 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - No active profile set, falling back to default profiles: default
+2023-02-25 10:34:47.213 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-25 10:34:47.219 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-25 10:34:47.220 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-25 10:34:47.220 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-02-25 10:34:47.274 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-25 10:34:47.274 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 917 ms
+2023-02-25 10:34:47.351 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-25 10:34:47.455 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-25 10:34:47.742 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:34:47.915 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-25 10:34:47.930 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-25 10:34:47.939 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Started TestmysqlApplication in 1.936 seconds (JVM running for 2.691)
+2023-02-25 10:34:49.982 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-25 10:34:49.982 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-25 10:34:49.983 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-02-25 10:34:49.989 [http-nio-8080-exec-2] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，前置处理方法！
+2023-02-25 10:34:50.003 [http-nio-8080-exec-2] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 进入Around方法，执行handle方法前执行！
+2023-02-25 10:34:50.564 [http-nio-8080-exec-2] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 响应返回数据  : [{"age":18,"id":1,"name":"zhangsan"},{"age":30,"id":2,"name":"lisi"}]
+2023-02-25 10:34:50.566 [http-nio-8080-exec-2] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 打印日志描述信息： 这是请求了controller的 /test 接口
+2023-02-25 10:34:50.566 [http-nio-8080-exec-2] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 处理器方法执行耗时 : 563 ms
+2023-02-25 10:34:50.613 [http-nio-8080-exec-2] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，后置处理方法！
+2023-02-25 10:34:50.613 [http-nio-8080-exec-2] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器, 模型渲染处理后执行的方法！
+2023-02-25 10:36:35.052 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Starting TestmysqlApplication using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 33612 (D:\workspace2023\testmysql\target\classes started by yzm in D:\workspace2023\testmysql)
+2023-02-25 10:36:35.055 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - No active profile set, falling back to default profiles: default
+2023-02-25 10:36:35.900 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-25 10:36:35.906 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-25 10:36:35.906 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-25 10:36:35.906 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-02-25 10:36:35.961 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-25 10:36:35.962 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 869 ms
+2023-02-25 10:36:36.039 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-25 10:36:36.135 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-25 10:36:36.399 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:36:36.559 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-25 10:36:36.572 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-25 10:36:36.580 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Started TestmysqlApplication in 1.834 seconds (JVM running for 2.544)
+2023-02-25 10:36:41.373 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-25 10:36:41.373 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-25 10:36:41.374 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-02-25 10:36:41.380 [http-nio-8080-exec-2] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，前置处理方法！
+2023-02-25 10:36:41.396 [http-nio-8080-exec-2] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 进入Around方法，执行handle方法前执行！
+2023-02-25 10:36:41.960 [http-nio-8080-exec-2] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 响应返回数据  : [{"age":18,"id":1,"name":"zhangsan"},{"age":30,"id":2,"name":"lisi"}]
+2023-02-25 10:36:41.962 [http-nio-8080-exec-2] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 打印日志描述信息： 这是请求了controller的 /test 接口
+2023-02-25 10:36:41.962 [http-nio-8080-exec-2] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 处理器方法执行耗时 : 566 ms
+2023-02-25 10:36:42.009 [http-nio-8080-exec-2] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，后置处理方法！
+2023-02-25 10:36:42.010 [http-nio-8080-exec-2] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器, 模型渲染处理后执行的方法！
+2023-02-25 10:41:23.218 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Starting TestmysqlApplication using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 40312 (D:\workspace2023\testmysql\target\classes started by yzm in D:\workspace2023\testmysql)
+2023-02-25 10:41:23.221 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - No active profile set, falling back to default profiles: default
+2023-02-25 10:41:24.063 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-25 10:41:24.069 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-25 10:41:24.070 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-25 10:41:24.070 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-02-25 10:41:24.124 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-25 10:41:24.124 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 868 ms
+2023-02-25 10:41:24.207 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-25 10:41:24.309 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-25 10:41:24.575 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:41:24.740 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-25 10:41:24.753 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-25 10:41:24.761 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Started TestmysqlApplication in 1.851 seconds (JVM running for 2.567)
+2023-02-25 10:41:28.786 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-25 10:41:28.787 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-25 10:41:28.788 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-02-25 10:41:28.800 [http-nio-8080-exec-1] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，前置处理方法！
+2023-02-25 10:41:28.817 [http-nio-8080-exec-1] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 进入Around方法，执行handle方法前执行！
+2023-02-25 10:41:29.370 [http-nio-8080-exec-1] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 响应返回数据  : [{"age":18,"id":1,"name":"zhangsan"},{"age":30,"id":2,"name":"lisi"}]
+2023-02-25 10:41:29.372 [http-nio-8080-exec-1] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 打印日志描述信息： 这是请求了controller的 /test 接口
+2023-02-25 10:41:29.372 [http-nio-8080-exec-1] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 处理器方法执行耗时 : 555 ms
+2023-02-25 10:41:29.418 [http-nio-8080-exec-1] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，后置处理方法！
+2023-02-25 10:41:29.418 [http-nio-8080-exec-1] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器, 模型渲染处理后执行的方法！
+2023-02-25 10:41:33.147 [http-nio-8080-exec-2] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，前置处理方法！
+2023-02-25 10:41:33.148 [http-nio-8080-exec-2] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 进入Around方法，执行handle方法前执行！
+2023-02-25 10:41:33.149 [http-nio-8080-exec-2] ERROR c.e.t.com.yzm.error.GloableExceptionHandler - 发生了异常！
+2023-02-25 10:41:33.152 [http-nio-8080-exec-2] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器, 模型渲染处理后执行的方法！
+2023-02-25 10:41:41.312 [http-nio-8080-exec-7] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，前置处理方法！
+2023-02-25 10:41:41.312 [http-nio-8080-exec-7] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 进入Around方法，执行handle方法前执行！
+2023-02-25 10:41:41.312 [http-nio-8080-exec-7] ERROR c.e.t.com.yzm.error.GloableExceptionHandler - 发生了异常！
+2023-02-25 10:41:41.314 [http-nio-8080-exec-7] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器, 模型渲染处理后执行的方法！
+2023-02-25 10:44:53.335 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Starting TestmysqlApplication using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 29924 (D:\workspace2023\testmysql\target\classes started by yzm in D:\workspace2023\testmysql)
+2023-02-25 10:44:53.338 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - No active profile set, falling back to default profiles: default
+2023-02-25 10:44:54.187 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-25 10:44:54.194 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-25 10:44:54.194 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-25 10:44:54.194 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-02-25 10:44:54.253 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-25 10:44:54.253 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 882 ms
+2023-02-25 10:44:54.331 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-25 10:44:54.430 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-25 10:44:54.691 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:44:54.851 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-25 10:44:54.864 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-25 10:44:54.871 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Started TestmysqlApplication in 1.818 seconds (JVM running for 2.529)
+2023-02-25 10:45:01.087 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-25 10:45:01.087 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-25 10:45:01.087 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-02-25 10:45:01.099 [http-nio-8080-exec-1] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，前置处理方法！
+2023-02-25 10:45:01.113 [http-nio-8080-exec-1] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 进入Around方法，执行handle方法前执行！
+2023-02-25 10:45:01.656 [http-nio-8080-exec-1] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 响应返回数据  : [{"age":18,"id":1,"name":"zhangsan"},{"age":30,"id":2,"name":"lisi"}]
+2023-02-25 10:45:01.658 [http-nio-8080-exec-1] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 打印日志描述信息： 这是请求了controller的 /test 接口
+2023-02-25 10:45:01.658 [http-nio-8080-exec-1] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 处理器方法执行耗时 : 545 ms
+2023-02-25 10:45:01.701 [http-nio-8080-exec-1] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，后置处理方法！
+2023-02-25 10:45:01.701 [http-nio-8080-exec-1] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器, 模型渲染处理后执行的方法！
+2023-02-25 10:45:07.378 [http-nio-8080-exec-2] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，前置处理方法！
+2023-02-25 10:45:07.379 [http-nio-8080-exec-2] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 进入Around方法，执行handle方法前执行！
+2023-02-25 10:45:07.381 [http-nio-8080-exec-2] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 响应返回数据  : [{"age":18,"id":1,"name":"zhangsan"},{"age":30,"id":2,"name":"lisi"}]
+2023-02-25 10:45:07.381 [http-nio-8080-exec-2] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 打印日志描述信息： 这是请求了controller的 /test 接口
+2023-02-25 10:45:07.381 [http-nio-8080-exec-2] INFO  c.example20230223.testmysql.com.yzm.log.LogAspect - 处理器方法执行耗时 : 2 ms
+2023-02-25 10:45:07.382 [http-nio-8080-exec-2] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，后置处理方法！
+2023-02-25 10:45:07.383 [http-nio-8080-exec-2] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器, 模型渲染处理后执行的方法！

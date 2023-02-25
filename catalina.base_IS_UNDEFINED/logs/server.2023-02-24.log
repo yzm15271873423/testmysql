@@ -1,0 +1,498 @@
+2023-02-24 21:57:14.196 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Starting TestmysqlApplication using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 15136 (D:\workspace2023\testmysql\target\classes started by yzm in D:\workspace2023\testmysql)
+2023-02-24 21:57:14.199 [main] DEBUG com.example20230223.testmysql.TestmysqlApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+2023-02-24 21:57:14.199 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - No active profile set, falling back to default profiles: default
+2023-02-24 21:57:14.992 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-24 21:57:15.000 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-24 21:57:15.001 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-24 21:57:15.001 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-02-24 21:57:15.063 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-24 21:57:15.064 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 819 ms
+2023-02-24 21:57:15.376 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-24 21:57:15.526 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-24 21:57:15.578 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-24 21:57:15.587 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Started TestmysqlApplication in 1.755 seconds (JVM running for 2.666)
+2023-02-24 21:57:48.939 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24 21:57:48.939 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-24 21:57:48.940 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-02-24 21:57:48.961 [http-nio-8080-exec-1] DEBUG com.example20230223.testmysql.com.yzm.controller.Controller - 这是logger日志，dug级别的日志================
+2023-02-24 21:57:48.972 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-24 21:57:49.465 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-24 21:57:49.471 [http-nio-8080-exec-1] DEBUG c.e.testmysql.com.yzm.mapper.UserMapper.selectAll - ==>  Preparing: select id, name, age from emp;
+2023-02-24 21:57:49.489 [http-nio-8080-exec-1] DEBUG c.e.testmysql.com.yzm.mapper.UserMapper.selectAll - ==> Parameters: 
+2023-02-24 21:57:49.506 [http-nio-8080-exec-1] DEBUG c.e.testmysql.com.yzm.mapper.UserMapper.selectAll - <==      Total: 2
+2023-02-24 22:01:32.472 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Starting TestmysqlApplication using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 33692 (D:\workspace2023\testmysql\target\classes started by yzm in D:\workspace2023\testmysql)
+2023-02-24 22:01:32.474 [main] DEBUG com.example20230223.testmysql.TestmysqlApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+2023-02-24 22:01:32.474 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - No active profile set, falling back to default profiles: default
+2023-02-24 22:01:33.188 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-24 22:01:33.195 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-24 22:01:33.195 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-24 22:01:33.195 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-02-24 22:01:33.249 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-24 22:01:33.249 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 739 ms
+2023-02-24 22:01:33.528 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-24 22:01:33.666 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-24 22:01:33.712 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-24 22:01:33.720 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Started TestmysqlApplication in 1.537 seconds (JVM running for 2.292)
+2023-02-24 22:01:45.636 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24 22:01:45.636 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-24 22:01:45.637 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-02-24 22:01:45.657 [http-nio-8080-exec-1] DEBUG com.example20230223.testmysql.com.yzm.controller.Controller - 这是logger日志，dug级别的日志================
+2023-02-24 22:01:45.669 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-24 22:01:46.139 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-24 22:01:46.146 [http-nio-8080-exec-1] DEBUG c.e.testmysql.com.yzm.mapper.UserMapper.selectAll - ==>  Preparing: select id, name, age from emp;
+2023-02-24 22:01:46.164 [http-nio-8080-exec-1] DEBUG c.e.testmysql.com.yzm.mapper.UserMapper.selectAll - ==> Parameters: 
+2023-02-24 22:01:46.179 [http-nio-8080-exec-1] DEBUG c.e.testmysql.com.yzm.mapper.UserMapper.selectAll - <==      Total: 2
+2023-02-24 22:03:48.739 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Starting TestmysqlApplication using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 19864 (D:\workspace2023\testmysql\target\classes started by yzm in D:\workspace2023\testmysql)
+2023-02-24 22:03:48.741 [main] DEBUG com.example20230223.testmysql.TestmysqlApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+2023-02-24 22:03:48.742 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - No active profile set, falling back to default profiles: default
+2023-02-24 22:03:49.442 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-24 22:03:49.448 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-24 22:03:49.449 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-24 22:03:49.449 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-02-24 22:03:49.503 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-24 22:03:49.503 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 724 ms
+2023-02-24 22:03:49.778 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-24 22:03:49.913 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-24 22:03:49.962 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-24 22:03:49.970 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Started TestmysqlApplication in 1.531 seconds (JVM running for 2.255)
+2023-02-24 22:03:55.855 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24 22:03:55.856 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-24 22:03:55.856 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-02-24 22:03:55.877 [http-nio-8080-exec-1] ERROR c.e.t.com.yzm.error.GloableExceptionHandler - 发生了异常！
+2023-02-24 22:05:10.369 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Starting TestmysqlApplication using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 33516 (D:\workspace2023\testmysql\target\classes started by yzm in D:\workspace2023\testmysql)
+2023-02-24 22:05:10.371 [main] DEBUG com.example20230223.testmysql.TestmysqlApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+2023-02-24 22:05:10.371 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - No active profile set, falling back to default profiles: default
+2023-02-24 22:05:11.096 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-24 22:05:11.102 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-24 22:05:11.102 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-24 22:05:11.102 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-02-24 22:05:11.158 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-24 22:05:11.158 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 755 ms
+2023-02-24 22:05:11.442 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-24 22:05:11.595 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-24 22:05:11.642 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-24 22:05:11.650 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Started TestmysqlApplication in 1.581 seconds (JVM running for 2.305)
+2023-02-24 22:05:23.581 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24 22:05:23.581 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-24 22:05:23.582 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-02-24 22:05:23.601 [http-nio-8080-exec-3] INFO  com.example20230223.testmysql.com.yzm.controller.Controller - 这是logger日志，dug级别的日志================
+2023-02-24 22:05:23.613 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-24 22:05:24.080 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-24 22:05:24.086 [http-nio-8080-exec-3] DEBUG c.e.testmysql.com.yzm.mapper.UserMapper.selectAll - ==>  Preparing: select id, name, age from emp;
+2023-02-24 22:05:24.103 [http-nio-8080-exec-3] DEBUG c.e.testmysql.com.yzm.mapper.UserMapper.selectAll - ==> Parameters: 
+2023-02-24 22:05:24.118 [http-nio-8080-exec-3] DEBUG c.e.testmysql.com.yzm.mapper.UserMapper.selectAll - <==      Total: 2
+2023-02-24 22:08:10.163 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Starting TestmysqlApplication using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 35972 (D:\workspace2023\testmysql\target\classes started by yzm in D:\workspace2023\testmysql)
+2023-02-24 22:08:10.166 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - No active profile set, falling back to default profiles: default
+2023-02-24 22:08:10.906 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-24 22:08:10.913 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-24 22:08:10.914 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-24 22:08:10.914 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-02-24 22:08:10.968 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-24 22:08:10.968 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 759 ms
+2023-02-24 22:08:11.260 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-24 22:08:11.402 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-24 22:08:11.453 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-24 22:08:11.462 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Started TestmysqlApplication in 1.627 seconds (JVM running for 2.374)
+2023-02-24 22:08:23.525 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24 22:08:23.525 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-24 22:08:23.526 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-02-24 22:08:23.556 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-24 22:08:24.020 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-24 22:08:33.436 [http-nio-8080-exec-2] ERROR c.e.t.com.yzm.error.GloableExceptionHandler - 发生了异常！
+2023-02-24 22:14:32.344 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Starting TestmysqlApplication using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 21696 (D:\workspace2023\testmysql\target\classes started by yzm in D:\workspace2023\testmysql)
+2023-02-24 22:14:32.346 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - No active profile set, falling back to default profiles: default
+2023-02-24 22:14:33.096 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-24 22:14:33.102 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-24 22:14:33.102 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-24 22:14:33.102 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-02-24 22:14:33.157 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-24 22:14:33.158 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 773 ms
+2023-02-24 22:14:33.226 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-24 22:14:33.329 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-24 22:14:33.567 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-24 22:14:33.707 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-24 22:14:33.720 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-24 22:14:33.728 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Started TestmysqlApplication in 1.687 seconds (JVM running for 2.41)
+2023-02-24 22:14:48.122 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24 22:14:48.122 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-24 22:14:48.123 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-02-24 22:18:48.337 [http-nio-8080-exec-4] ERROR c.e.t.com.yzm.error.GloableExceptionHandler - 发生了异常！
+2023-02-24 22:31:58.198 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example20230223.testmysql.TestmysqlApplicationTests], using SpringBootContextLoader
+2023-02-24 22:31:58.204 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example20230223.testmysql.TestmysqlApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-24 22:31:58.374 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-02-24 22:31:58.396 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@710636b0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3de8f619, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2ab4bc72, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4e5ed836, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@eadd4fb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@740fb309, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7bd7d6d6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@43f02ef2, org.springframework.test.context.event.EventPublishingTestExecutionListener@239a307b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2a8448fa, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6f204a1a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2de56eb2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5f8e8a9d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5745ca0e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3ad83a66]
+2023-02-24 22:31:58.758 [main] INFO  c.e.testmysql.TestmysqlApplicationTests - Starting TestmysqlApplicationTests using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 32976 (started by yzm in D:\workspace2023\testmysql)
+2023-02-24 22:31:58.760 [main] INFO  c.e.testmysql.TestmysqlApplicationTests - No active profile set, falling back to default profiles: default
+2023-02-24 22:31:58.917 [main] WARN  o.s.w.context.support.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testmysqlApplicationTests': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example20230223.testmysql.com.yzm.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-02-24 22:31:58.960 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userMapper in com.example20230223.testmysql.TestmysqlApplicationTests required a bean of type 'com.example20230223.testmysql.com.yzm.mapper.UserMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example20230223.testmysql.com.yzm.mapper.UserMapper' in your configuration.
+
+2023-02-24 22:31:58.963 [main] ERROR o.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@710636b0] to prepare test instance [com.example20230223.testmysql.TestmysqlApplicationTests@5b58ed3c]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1380)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.util.ArrayList.forEach(ArrayList.java:1255)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.util.ArrayList.forEach(ArrayList.java:1255)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testmysqlApplicationTests': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example20230223.testmysql.com.yzm.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 67 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example20230223.testmysql.com.yzm.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1790)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1346)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 87 common frames omitted
+2023-02-24 23:01:13.277 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example20230223.testmysql.SpringTest01], using SpringBootContextLoader
+2023-02-24 23:01:13.282 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example20230223.testmysql.SpringTest01]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-24 23:01:13.472 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-02-24 23:01:13.487 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@55f616cf, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1356d4d4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@c03cf28, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1329eff, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6497b078, org.springframework.test.context.support.DirtiesContextTestExecutionListener@41c2284a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@53aad5d5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@46fa7c39, org.springframework.test.context.event.EventPublishingTestExecutionListener@1fb700ee, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f67eb2a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4a668b6e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5f683daf, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@78ffe6dc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@8317c52, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@76f2bbc1]
+2023-02-24 23:01:13.859 [main] INFO  com.example20230223.testmysql.SpringTest01 - Starting SpringTest01 using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 31804 (started by yzm in D:\workspace2023\testmysql)
+2023-02-24 23:01:13.861 [main] INFO  com.example20230223.testmysql.SpringTest01 - No active profile set, falling back to default profiles: default
+2023-02-24 23:01:14.795 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-24 23:01:15.013 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-24 23:01:15.596 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:01:15.950 [main] INFO  com.example20230223.testmysql.SpringTest01 - Started SpringTest01 in 2.405 seconds (JVM running for 3.239)
+2023-02-24 23:01:16.190 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:01:16.191 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-02-24 23:01:57.778 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example20230223.testmysql.SpringTest01], using SpringBootContextLoader
+2023-02-24 23:01:57.784 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example20230223.testmysql.SpringTest01]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-24 23:01:57.973 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-02-24 23:01:57.988 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@41c2284a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53aad5d5, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@46fa7c39, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1fb700ee, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4f67eb2a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4a668b6e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5f683daf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@78ffe6dc, org.springframework.test.context.event.EventPublishingTestExecutionListener@8317c52, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76f2bbc1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@68e965f5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6f27a732, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6c779568, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@f381794, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2cdd0d4b]
+2023-02-24 23:01:58.350 [main] INFO  com.example20230223.testmysql.SpringTest01 - Starting SpringTest01 using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 16452 (started by yzm in D:\workspace2023\testmysql)
+2023-02-24 23:01:58.352 [main] INFO  com.example20230223.testmysql.SpringTest01 - No active profile set, falling back to default profiles: default
+2023-02-24 23:01:59.189 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-24 23:01:59.370 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-24 23:01:59.901 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:02:00.242 [main] INFO  com.example20230223.testmysql.SpringTest01 - Started SpringTest01 in 2.195 seconds (JVM running for 3.029)
+2023-02-24 23:02:01.331 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:02:01.344 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-02-24 23:02:30.963 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example20230223.testmysql.SpringTest01], using SpringBootContextLoader
+2023-02-24 23:02:30.969 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example20230223.testmysql.SpringTest01]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-24 23:02:31.166 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-02-24 23:02:31.183 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@41c2284a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53aad5d5, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@46fa7c39, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1fb700ee, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4f67eb2a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4a668b6e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5f683daf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@78ffe6dc, org.springframework.test.context.event.EventPublishingTestExecutionListener@8317c52, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76f2bbc1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@68e965f5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6f27a732, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6c779568, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@f381794, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2cdd0d4b]
+2023-02-24 23:02:31.523 [main] INFO  com.example20230223.testmysql.SpringTest01 - Starting SpringTest01 using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 7900 (started by yzm in D:\workspace2023\testmysql)
+2023-02-24 23:02:31.524 [main] INFO  com.example20230223.testmysql.SpringTest01 - No active profile set, falling back to default profiles: default
+2023-02-24 23:02:32.350 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-24 23:02:32.558 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-24 23:02:33.103 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:02:33.470 [main] INFO  com.example20230223.testmysql.SpringTest01 - Started SpringTest01 in 2.237 seconds (JVM running for 3.082)
+2023-02-24 23:02:34.542 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:02:34.544 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-02-24 23:02:55.019 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example20230223.testmysql.SpringTest01], using SpringBootContextLoader
+2023-02-24 23:02:55.024 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example20230223.testmysql.SpringTest01]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-24 23:02:55.193 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-02-24 23:02:55.209 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5f8edcc5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7b02881e, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1ebd319f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3c0be339, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@15ca7889, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7a675056, org.springframework.test.context.transaction.TransactionalTestExecutionListener@d21a74c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6e509ffa, org.springframework.test.context.event.EventPublishingTestExecutionListener@2898ac89, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@683dbc2c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@68267da0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2638011, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6ff29830, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6a2b953e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@313b2ea6]
+2023-02-24 23:02:55.565 [main] INFO  com.example20230223.testmysql.SpringTest01 - Starting SpringTest01 using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 34472 (started by yzm in D:\workspace2023\testmysql)
+2023-02-24 23:02:55.568 [main] INFO  com.example20230223.testmysql.SpringTest01 - No active profile set, falling back to default profiles: default
+2023-02-24 23:02:55.717 [main] WARN  o.s.w.context.support.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'springTest01': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example20230223.testmysql.com.yzm.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-02-24 23:02:55.740 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userMapper in com.example20230223.testmysql.SpringTest01 required a bean of type 'com.example20230223.testmysql.com.yzm.mapper.UserMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example20230223.testmysql.com.yzm.mapper.UserMapper' in your configuration.
+
+2023-02-24 23:02:55.743 [main] ERROR o.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@5f8edcc5] to prepare test instance [com.example20230223.testmysql.SpringTest01@52d239ba]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'springTest01': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example20230223.testmysql.com.yzm.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example20230223.testmysql.com.yzm.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1790)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1346)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 45 common frames omitted
+2023-02-24 23:03:12.852 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example20230223.testmysql.SpringTest01], using SpringBootContextLoader
+2023-02-24 23:03:12.856 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example20230223.testmysql.SpringTest01]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-24 23:03:13.067 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-02-24 23:03:13.088 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@41c2284a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53aad5d5, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@46fa7c39, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1fb700ee, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4f67eb2a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4a668b6e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5f683daf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@78ffe6dc, org.springframework.test.context.event.EventPublishingTestExecutionListener@8317c52, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@76f2bbc1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@68e965f5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6f27a732, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6c779568, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@f381794, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2cdd0d4b]
+2023-02-24 23:03:13.457 [main] INFO  com.example20230223.testmysql.SpringTest01 - Starting SpringTest01 using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 19236 (started by yzm in D:\workspace2023\testmysql)
+2023-02-24 23:03:13.459 [main] INFO  com.example20230223.testmysql.SpringTest01 - No active profile set, falling back to default profiles: default
+2023-02-24 23:03:14.314 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-24 23:03:14.514 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-24 23:03:15.063 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:03:15.395 [main] INFO  com.example20230223.testmysql.SpringTest01 - Started SpringTest01 in 2.239 seconds (JVM running for 3.097)
+2023-02-24 23:03:16.460 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:03:16.463 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-02-24 23:04:00.432 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example20230223.testmysql.SpringTest01], using SpringBootContextLoader
+2023-02-24 23:04:00.438 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example20230223.testmysql.SpringTest01]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-24 23:04:00.439 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example20230223.testmysql.SpringTest01]: SpringTest01 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-02-24 23:04:00.561 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example20230223.testmysql.TestmysqlApplication for test class com.example20230223.testmysql.SpringTest01
+2023-02-24 23:04:00.669 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-02-24 23:04:00.686 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6d3a388c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@193f604a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@20f5239f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@57af006c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6bedbc4d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@932bc4a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@d29f28, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2fd1433e, org.springframework.test.context.event.EventPublishingTestExecutionListener@29d89d5d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3514a4c0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@212b5695, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@446293d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@69997e9d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@793be5ca, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2df9b86]
+2023-02-24 23:04:01.025 [main] INFO  com.example20230223.testmysql.SpringTest01 - Starting SpringTest01 using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 37284 (started by yzm in D:\workspace2023\testmysql)
+2023-02-24 23:04:01.027 [main] INFO  com.example20230223.testmysql.SpringTest01 - No active profile set, falling back to default profiles: default
+2023-02-24 23:04:01.860 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-24 23:04:02.049 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-24 23:04:02.575 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:04:02.917 [main] INFO  com.example20230223.testmysql.SpringTest01 - Started SpringTest01 in 2.184 seconds (JVM running for 3.05)
+2023-02-24 23:04:03.974 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:04:03.977 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-02-24 23:04:26.924 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example20230223.testmysql.SpringTest01], using SpringBootContextLoader
+2023-02-24 23:04:26.929 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example20230223.testmysql.SpringTest01]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-24 23:04:26.930 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example20230223.testmysql.SpringTest01]: SpringTest01 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-02-24 23:04:27.046 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example20230223.testmysql.TestmysqlApplication for test class com.example20230223.testmysql.SpringTest01
+2023-02-24 23:04:27.143 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-02-24 23:04:27.158 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@49912c99, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@10163d6, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2dde1bff, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@15bbf42f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@550ee7e5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5f9b2141, org.springframework.test.context.transaction.TransactionalTestExecutionListener@247d8ae, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@48974e45, org.springframework.test.context.event.EventPublishingTestExecutionListener@6a84a97d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6c130c45, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@50ad3bc1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@223aa2f7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6d3a388c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@193f604a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@20f5239f]
+2023-02-24 23:04:27.493 [main] INFO  com.example20230223.testmysql.SpringTest01 - Starting SpringTest01 using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 27432 (started by yzm in D:\workspace2023\testmysql)
+2023-02-24 23:04:27.495 [main] INFO  com.example20230223.testmysql.SpringTest01 - No active profile set, falling back to default profiles: default
+2023-02-24 23:04:28.311 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-24 23:04:28.494 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-24 23:04:29.011 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:04:29.372 [main] INFO  com.example20230223.testmysql.SpringTest01 - Started SpringTest01 in 2.166 seconds (JVM running for 2.993)
+2023-02-24 23:04:30.417 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:04:30.420 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-02-24 23:10:22.081 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Starting TestmysqlApplication using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 29476 (D:\workspace2023\testmysql\target\classes started by yzm in D:\workspace2023\testmysql)
+2023-02-24 23:10:22.084 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - No active profile set, falling back to default profiles: default
+2023-02-24 23:10:22.844 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-24 23:10:22.851 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-24 23:10:22.851 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-24 23:10:22.851 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-02-24 23:10:22.911 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-24 23:10:22.911 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 789 ms
+2023-02-24 23:10:22.978 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-24 23:10:23.083 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-24 23:10:23.324 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:10:23.467 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-24 23:10:23.482 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-24 23:10:23.490 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Started TestmysqlApplication in 1.719 seconds (JVM running for 2.5)
+2023-02-24 23:10:32.504 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24 23:10:32.504 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-24 23:10:32.505 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-02-24 23:10:41.190 [http-nio-8080-exec-8] ERROR c.e.t.com.yzm.error.GloableExceptionHandler - 发生了异常！
+2023-02-24 23:12:19.325 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example20230223.testmysql.SpringTest01], using SpringBootContextLoader
+2023-02-24 23:12:19.331 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example20230223.testmysql.SpringTest01]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-24 23:12:19.332 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example20230223.testmysql.SpringTest01]: SpringTest01 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-02-24 23:12:19.454 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example20230223.testmysql.TestmysqlApplication for test class com.example20230223.testmysql.SpringTest01
+2023-02-24 23:12:19.560 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-02-24 23:12:19.579 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@49912c99, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@10163d6, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2dde1bff, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@15bbf42f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@550ee7e5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5f9b2141, org.springframework.test.context.transaction.TransactionalTestExecutionListener@247d8ae, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@48974e45, org.springframework.test.context.event.EventPublishingTestExecutionListener@6a84a97d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6c130c45, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@50ad3bc1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@223aa2f7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6d3a388c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@193f604a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@20f5239f]
+2023-02-24 23:12:19.908 [main] INFO  com.example20230223.testmysql.SpringTest01 - Starting SpringTest01 using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 12380 (started by yzm in D:\workspace2023\testmysql)
+2023-02-24 23:12:19.910 [main] INFO  com.example20230223.testmysql.SpringTest01 - No active profile set, falling back to default profiles: default
+2023-02-24 23:12:20.721 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-24 23:12:20.917 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-24 23:12:21.494 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:12:21.840 [main] INFO  com.example20230223.testmysql.SpringTest01 - Started SpringTest01 in 2.213 seconds (JVM running for 3.075)
+2023-02-24 23:12:22.886 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:12:22.889 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-02-24 23:13:14.325 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example20230223.testmysql.SpringTest01], using SpringBootContextLoader
+2023-02-24 23:13:14.331 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example20230223.testmysql.SpringTest01]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-24 23:13:14.332 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example20230223.testmysql.SpringTest01]: SpringTest01 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-02-24 23:13:14.456 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example20230223.testmysql.TestmysqlApplication for test class com.example20230223.testmysql.SpringTest01
+2023-02-24 23:13:14.560 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-02-24 23:13:14.579 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6d3a388c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@193f604a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@20f5239f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@57af006c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6bedbc4d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@932bc4a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@d29f28, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2fd1433e, org.springframework.test.context.event.EventPublishingTestExecutionListener@29d89d5d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3514a4c0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@212b5695, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@446293d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@69997e9d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@793be5ca, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2df9b86]
+2023-02-24 23:13:14.930 [main] INFO  com.example20230223.testmysql.SpringTest01 - Starting SpringTest01 using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 34620 (started by yzm in D:\workspace2023\testmysql)
+2023-02-24 23:13:14.932 [main] INFO  com.example20230223.testmysql.SpringTest01 - No active profile set, falling back to default profiles: default
+2023-02-24 23:13:15.751 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-24 23:13:15.946 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-24 23:13:16.496 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:13:16.851 [main] INFO  com.example20230223.testmysql.SpringTest01 - Started SpringTest01 in 2.22 seconds (JVM running for 3.084)
+2023-02-24 23:13:17.914 [main] INFO  com.example20230223.testmysql.SpringTest01 - test日志记录！！！
+2023-02-24 23:13:17.925 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:13:17.928 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-02-24 23:22:48.209 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example20230223.testmysql.SpringTest01], using SpringBootContextLoader
+2023-02-24 23:22:48.215 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example20230223.testmysql.SpringTest01]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-24 23:22:48.216 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example20230223.testmysql.SpringTest01]: SpringTest01 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-02-24 23:22:48.337 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example20230223.testmysql.TestmysqlApplication for test class com.example20230223.testmysql.SpringTest01
+2023-02-24 23:22:48.449 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-02-24 23:22:48.466 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6d3a388c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@193f604a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@20f5239f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@57af006c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6bedbc4d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@932bc4a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@d29f28, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2fd1433e, org.springframework.test.context.event.EventPublishingTestExecutionListener@29d89d5d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3514a4c0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@212b5695, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@446293d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@69997e9d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@793be5ca, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2df9b86]
+2023-02-24 23:22:48.792 [main] INFO  com.example20230223.testmysql.SpringTest01 - Starting SpringTest01 using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 32476 (started by yzm in D:\workspace2023\testmysql)
+2023-02-24 23:22:48.794 [main] INFO  com.example20230223.testmysql.SpringTest01 - No active profile set, falling back to default profiles: default
+2023-02-24 23:22:49.598 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-24 23:22:49.801 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-24 23:22:50.356 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:22:50.704 [main] INFO  com.example20230223.testmysql.SpringTest01 - Started SpringTest01 in 2.189 seconds (JVM running for 3.061)
+2023-02-24 23:22:51.780 [main] INFO  com.example20230223.testmysql.SpringTest01 - test日志记录！！！
+2023-02-24 23:22:51.789 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:22:51.792 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-02-24 23:23:02.679 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Starting TestmysqlApplication using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 35600 (D:\workspace2023\testmysql\target\classes started by yzm in D:\workspace2023\testmysql)
+2023-02-24 23:23:02.683 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - No active profile set, falling back to default profiles: default
+2023-02-24 23:23:03.400 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-24 23:23:03.406 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-24 23:23:03.407 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-24 23:23:03.407 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-02-24 23:23:03.459 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-24 23:23:03.459 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 742 ms
+2023-02-24 23:23:03.521 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-24 23:23:03.613 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-24 23:23:03.850 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:23:03.991 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-24 23:23:04.004 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-24 23:23:04.011 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Started TestmysqlApplication in 1.617 seconds (JVM running for 2.322)
+2023-02-24 23:23:15.148 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24 23:23:15.148 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-24 23:23:15.149 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-02-24 23:25:08.340 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Starting TestmysqlApplication using Java 1.8.0_151 on LAPTOP-QV3I00EH with PID 36300 (D:\workspace2023\testmysql\target\classes started by yzm in D:\workspace2023\testmysql)
+2023-02-24 23:25:08.342 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - No active profile set, falling back to default profiles: default
+2023-02-24 23:25:09.083 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-24 23:25:09.089 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-24 23:25:09.089 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-24 23:25:09.089 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-02-24 23:25:09.141 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-24 23:25:09.142 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 764 ms
+2023-02-24 23:25:09.204 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-02-24 23:25:09.297 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-02-24 23:25:09.534 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-24 23:25:09.674 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-24 23:25:09.687 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-24 23:25:09.695 [main] INFO  com.example20230223.testmysql.TestmysqlApplication - Started TestmysqlApplication in 1.636 seconds (JVM running for 2.34)
+2023-02-24 23:25:18.664 [http-nio-8080-exec-8] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24 23:25:18.664 [http-nio-8080-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-24 23:25:18.665 [http-nio-8080-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-02-24 23:25:18.671 [http-nio-8080-exec-8] INFO  c.e.testmysql.com.yzm.config.TestMysqlInterceptor - 进入拦截器，前置处理方法！
